@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mappingg.Tests", "Mappingg.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MappingAPI", "MappingAPI\MappingAPI.csproj", "{6A7989AC-AFA5-4338-97E2-D53A57BECE39}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MappingAPI.Tests", "MappingAPI.Tests\MappingAPI.Tests.csproj", "{201A6EB6-86E4-49BA-95C1-44D898E73889}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{6A7989AC-AFA5-4338-97E2-D53A57BECE39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A7989AC-AFA5-4338-97E2-D53A57BECE39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A7989AC-AFA5-4338-97E2-D53A57BECE39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{201A6EB6-86E4-49BA-95C1-44D898E73889}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{201A6EB6-86E4-49BA-95C1-44D898E73889}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{201A6EB6-86E4-49BA-95C1-44D898E73889}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{201A6EB6-86E4-49BA-95C1-44D898E73889}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
