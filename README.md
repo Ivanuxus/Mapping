@@ -1,6 +1,6 @@
 # Mapping
 Запуск Mappingg.exe input_data.csv mapping_data.csv
-
+Запуск тестов dotnet test Mappingg.Tests
 
 input_data.csv:
 ext_id1,Value1
@@ -12,3 +12,4 @@ mapping_data.csv:
 ext_id1,om_idA
 ext_id2,om_idB
 ext_id4,om_idD
+

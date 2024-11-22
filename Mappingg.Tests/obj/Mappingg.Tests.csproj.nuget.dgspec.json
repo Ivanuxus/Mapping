@@ -1,40 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alfer\\Mapping\\Mappingg.Tests\\Mappingg.Tests.csproj": {}
+    "/Users/alfer/Documents/repos/Mapping/Mappingg.Tests/Mappingg.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alfer\\Mapping\\Mappingg.Tests\\Mappingg.Tests.csproj": {
+    "/Users/alfer/Documents/repos/Mapping/Mappingg.Tests/Mappingg.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alfer\\Mapping\\Mappingg.Tests\\Mappingg.Tests.csproj",
+        "projectUniqueName": "/Users/alfer/Documents/repos/Mapping/Mappingg.Tests/Mappingg.Tests.csproj",
         "projectName": "Mappingg.Tests",
-        "projectPath": "C:\\Users\\alfer\\Mapping\\Mappingg.Tests\\Mappingg.Tests.csproj",
-        "packagesPath": "C:\\Users\\alfer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alfer\\Mapping\\Mappingg.Tests\\obj\\",
+        "projectPath": "/Users/alfer/Documents/repos/Mapping/Mappingg.Tests/Mappingg.Tests.csproj",
+        "packagesPath": "/Users/alfer/.nuget/packages/",
+        "outputPath": "/Users/alfer/Documents/repos/Mapping/Mappingg.Tests/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\alfer\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/alfer/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\alfer\\Mapping\\Mappingg\\Mappingg.csproj": {
-                "projectPath": "C:\\Users\\alfer\\Mapping\\Mappingg\\Mappingg.csproj"
+              "/Users/alfer/Documents/repos/Mapping/Mappingg/Mappingg.csproj": {
+                "projectPath": "/Users/alfer/Documents/repos/Mapping/Mappingg/Mappingg.csproj"
               }
             }
           }
@@ -47,12 +40,13 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -87,38 +81,31 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\alfer\\Mapping\\Mappingg\\Mappingg.csproj": {
+    "/Users/alfer/Documents/repos/Mapping/Mappingg/Mappingg.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alfer\\Mapping\\Mappingg\\Mappingg.csproj",
+        "projectUniqueName": "/Users/alfer/Documents/repos/Mapping/Mappingg/Mappingg.csproj",
         "projectName": "Mappingg",
-        "projectPath": "C:\\Users\\alfer\\Mapping\\Mappingg\\Mappingg.csproj",
-        "packagesPath": "C:\\Users\\alfer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alfer\\Mapping\\Mappingg\\obj\\",
+        "projectPath": "/Users/alfer/Documents/repos/Mapping/Mappingg/Mappingg.csproj",
+        "packagesPath": "/Users/alfer/.nuget/packages/",
+        "outputPath": "/Users/alfer/Documents/repos/Mapping/Mappingg/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\alfer\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/alfer/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {}
           }
         },
@@ -130,12 +117,13 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "imports": [
             "net461",
             "net462",
@@ -152,7 +140,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

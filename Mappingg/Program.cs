@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.IO;
 
-class Program
+public class Program
 {
-    static void Main(string[] args)
+    public static void Main(string[] args)
     {
         if (args.Length < 2)
         {
@@ -38,7 +38,7 @@ class Program
         }
     }
 
-    static Dictionary<string, string> LoadData(string filePath)
+    public static Dictionary<string, string> LoadData(string filePath)
     {
         var data = new Dictionary<string, string>();
 
@@ -56,7 +56,7 @@ class Program
         return data;
     }
 
-    static Dictionary<string, string> LoadMapping(string filePath)
+    public static Dictionary<string, string> LoadMapping(string filePath)
     {
         var mapping = new Dictionary<string, string>();
 
@@ -81,7 +81,7 @@ class Program
         return mapping;
     }
 
-    static Dictionary<string, string> ApplyMapping(Dictionary<string, string> inputData, Dictionary<string, string> mappingData)
+    public static Dictionary<string, string> ApplyMapping(Dictionary<string, string> inputData, Dictionary<string, string> mappingData)
     {
         var resultData = new Dictionary<string, string>();
 
@@ -105,7 +105,7 @@ class Program
         return resultData;
     }
 
-    static void SaveData(string filePath, Dictionary<string, string> data)
+    public static void SaveData(string filePath, Dictionary<string, string> data)
     {
         using (var writer = new StreamWriter(filePath))
         {
