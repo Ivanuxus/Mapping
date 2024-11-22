@@ -1,5 +1,6 @@
 # Mapping
-Запуск Mappingg.exe input_data.csv mapping_data.csv
+Запуск dotnet run
+Запуск на windows Mappingg.exe input_data.csv mapping_data.csv
 Запуск тестов dotnet test Mappingg.Tests
 
 input_data.csv:
