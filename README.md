@@ -1,30 +1,18 @@
 # Mapping
 Запуск dotnet run
-Запуск после билда Mappingg.exe input_data.csv mapping_data.csv
-Запуск тестов основного приложения dotnet test Mappingg.Tests
-Запуск тестов API dotnet test MappingAPI.Tests
+Запуск тестов API: dotnet test
 Пример содержания файлов, также они уже есть в корневой папке.
-input_data.csv:
-ext_id1,Value1
-ext_id2,Value2
-ext_id3,Value3
-ext_id4,Value4
-
-mapping_data.csv:
-ext_id1,om_idA
-ext_id2,om_idB
-ext_id4,om_idD
-
-Проверка запросов (Порт указать свой):
-dotnet run --project MappingAPI
-curl -X POST http://localhost:5220/api/mapping/process \
--H "Content-Type: application/json" \
--d '{
+postman:
+пример Post-запроса:http://localhost:5220/api/Mapping/process
+    {
     "InputData": {
-        "Key1": "Value1",
-        "Key2": "Value2"
+        "капуста": "100 руб",
+        "помидор": "80 руб",
+        "картофель": "50 руб"
     },
     "MappingData": {
-        "Key1": "MappedKey1"
+        "капуста": "Cabbage",
+        "помидор": "Tomato",
+        "картофель": "Potato"
     }
-}'
+    }
