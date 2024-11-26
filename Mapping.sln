@@ -3,10 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mappingg", "Mappingg\Mappingg.csproj", "{646695EB-0B22-43FE-BFAF-9F29B4F35DDD}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mappingg.Tests", "Mappingg.Tests\Mappingg.Tests.csproj", "{958D3BAB-58A4-463E-9DD5-867C29A97D2C}"
-EndProject
+
+
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MappingAPI", "MappingAPI\MappingAPI.csproj", "{6A7989AC-AFA5-4338-97E2-D53A57BECE39}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MappingAPI.Tests", "MappingAPI.Tests\MappingAPI.Tests.csproj", "{201A6EB6-86E4-49BA-95C1-44D898E73889}"

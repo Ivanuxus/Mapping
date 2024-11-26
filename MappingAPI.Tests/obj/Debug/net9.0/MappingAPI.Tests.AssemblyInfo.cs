@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MappingAPI.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+10107ef61da79fd834d7dc3390e6c11e41237920")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f638c87f597b0cdde46f43c409b71849107987cd")]
 [assembly: System.Reflection.AssemblyProductAttribute("MappingAPI.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MappingAPI.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

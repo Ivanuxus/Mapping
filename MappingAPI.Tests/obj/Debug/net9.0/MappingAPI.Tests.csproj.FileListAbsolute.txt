@@ -320,6 +320,10 @@
 /Users/alfer/Documents/repos/Mapping/MappingAPI.Tests/bin/Debug/net9.0/Microsoft.AspNetCore.OpenApi.dll
 /Users/alfer/Documents/repos/Mapping/MappingAPI.Tests/bin/Debug/net9.0/Microsoft.AspNetCore.TestHost.dll
 /Users/alfer/Documents/repos/Mapping/MappingAPI.Tests/bin/Debug/net9.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll
+/Users/alfer/Documents/repos/Mapping/MappingAPI.Tests/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.dll
+/Users/alfer/Documents/repos/Mapping/MappingAPI.Tests/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/alfer/Documents/repos/Mapping/MappingAPI.Tests/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.InMemory.dll
+/Users/alfer/Documents/repos/Mapping/MappingAPI.Tests/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Relational.dll
 /Users/alfer/Documents/repos/Mapping/MappingAPI.Tests/bin/Debug/net9.0/Microsoft.Extensions.DependencyModel.dll
 /Users/alfer/Documents/repos/Mapping/MappingAPI.Tests/bin/Debug/net9.0/Microsoft.OpenApi.dll
 /Users/alfer/Documents/repos/Mapping/MappingAPI.Tests/bin/Debug/net9.0/Microsoft.TestPlatform.CoreUtilities.dll
@@ -331,6 +335,8 @@
 /Users/alfer/Documents/repos/Mapping/MappingAPI.Tests/bin/Debug/net9.0/Microsoft.VisualStudio.TestPlatform.Common.dll
 /Users/alfer/Documents/repos/Mapping/MappingAPI.Tests/bin/Debug/net9.0/testhost.dll
 /Users/alfer/Documents/repos/Mapping/MappingAPI.Tests/bin/Debug/net9.0/Newtonsoft.Json.dll
+/Users/alfer/Documents/repos/Mapping/MappingAPI.Tests/bin/Debug/net9.0/Npgsql.dll
+/Users/alfer/Documents/repos/Mapping/MappingAPI.Tests/bin/Debug/net9.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
 /Users/alfer/Documents/repos/Mapping/MappingAPI.Tests/bin/Debug/net9.0/xunit.abstractions.dll
 /Users/alfer/Documents/repos/Mapping/MappingAPI.Tests/bin/Debug/net9.0/xunit.assert.dll
 /Users/alfer/Documents/repos/Mapping/MappingAPI.Tests/bin/Debug/net9.0/xunit.core.dll

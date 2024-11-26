@@ -1,50 +1,74 @@
 using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
+using MappingAPI.Data;
+using MappingAPI.Models;
 
-[ApiController]
-[Route("api/[controller]")]
-public class MappingController : ControllerBase
+namespace MappingAPI.Controllers
 {
-    [HttpPost("process")]
-    public IActionResult ProcessMapping([FromBody] MappingRequest request)
+    [ApiController]
+    [Route("api/[controller]")]
+    public class MappingController : ControllerBase
     {
-        // Проверяем входные данные
-        if (request == null || request.InputData == null || request.MappingData == null)
+        private readonly AppDbContext _context;
+
+        public MappingController(AppDbContext context)
         {
-            return BadRequest("Invalid input data.");
+            _context = context;
         }
 
-        // Выполняем маппинг
-        var outputData = ApplyMapping(request.InputData, request.MappingData);
-
-        // Возвращаем результат
-        return Ok(new { OutputData = outputData });
-    }
-
-    // Метод для применения маппинга
-    private Dictionary<string, string> ApplyMapping(Dictionary<string, string> inputData, Dictionary<string, string> mappingData)
-    {
-        var result = new Dictionary<string, string>();
-
-        foreach (var item in inputData)
+        [HttpPost("process")]
+        public IActionResult ProcessMapping([FromBody] MappingRequest request)
         {
-            if (mappingData.TryGetValue(item.Key, out var mappedKey))
+            if (request == null || request.InputData == null || request.MappingData == null)
             {
-                result[mappedKey] = item.Value;
+                return BadRequest("Invalid input data.");
             }
-            else
+
+            // Сохраняем маппинг в базу данных
+            foreach (var mapping in request.MappingData)
             {
-                result[item.Key] = item.Value; // Если маппинг отсутствует, оставляем оригинальный ключ
+                _context.MappingData.Add(new MappingData
+                {
+                    OriginalKey = mapping.Key,
+                    MappedKey = mapping.Value
+                });
             }
+
+            // Сохраняем входные данные в базу данных
+            foreach (var input in request.InputData)
+            {
+                _context.InputData.Add(new InputData
+                {
+                    Key = input.Key,
+                    Value = input.Value
+                });
+            }
+
+            // Сохраняем изменения в базу
+            _context.SaveChanges();
+
+            // Применяем маппинг
+            var outputData = ApplyMapping(request.InputData, request.MappingData);
+
+            return Ok(new { OutputData = outputData });
         }
 
-        return result;
-    }
-}
+        private Dictionary<string, string> ApplyMapping(Dictionary<string, string> inputData, Dictionary<string, string> mappingData)
+        {
+            var result = new Dictionary<string, string>();
 
-// Класс для обработки входных данных
-public class MappingRequest
-{
-    public Dictionary<string, string> InputData { get; set; }
-    public Dictionary<string, string> MappingData { get; set; }
+            foreach (var item in inputData)
+            {
+                if (mappingData.TryGetValue(item.Key, out var mappedKey))
+                {
+                    result[mappedKey] = item.Value;
+                }
+                else
+                {
+                    result[item.Key] = item.Value;
+                }
+            }
+
+            return result;
+        }
+    }
 }
