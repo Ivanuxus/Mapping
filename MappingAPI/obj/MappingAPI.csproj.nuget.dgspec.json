@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/alfer/Documents/repos/Mapping/MappingAPI/MappingAPI.csproj": {}
+    "/Users/alfer/Documents/repos/Mapping/MappingApi/MappingAPI.csproj": {}
   },
   "projects": {
-    "/Users/alfer/Documents/repos/Mapping/MappingAPI/MappingAPI.csproj": {
+    "/Users/alfer/Documents/repos/Mapping/MappingApi/MappingAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/alfer/Documents/repos/Mapping/MappingAPI/MappingAPI.csproj",
+        "projectUniqueName": "/Users/alfer/Documents/repos/Mapping/MappingApi/MappingAPI.csproj",
         "projectName": "MappingAPI",
-        "projectPath": "/Users/alfer/Documents/repos/Mapping/MappingAPI/MappingAPI.csproj",
+        "projectPath": "/Users/alfer/Documents/repos/Mapping/MappingApi/MappingAPI.csproj",
         "packagesPath": "/Users/alfer/.nuget/packages/",
-        "outputPath": "/Users/alfer/Documents/repos/Mapping/MappingAPI/obj/",
+        "outputPath": "/Users/alfer/Documents/repos/Mapping/MappingApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/alfer/.nuget/NuGet/NuGet.Config"

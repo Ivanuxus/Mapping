@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U7YRQSk9m54=",
+  "dgSpecHash": "0948MXMZ4qs=",
   "success": true,
-  "projectFilePath": "/Users/alfer/Documents/repos/Mapping/MappingAPI/MappingAPI.csproj",
+  "projectFilePath": "/Users/alfer/Documents/repos/Mapping/MappingApi/MappingAPI.csproj",
   "expectedPackageFiles": [
     "/Users/alfer/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/alfer/.nuget/packages/microsoft.aspnetcore.openapi/9.0.0/microsoft.aspnetcore.openapi.9.0.0.nupkg.sha512",

@@ -18,4 +18,11 @@ namespace MappingAPI.Models
         public Dictionary<string, string>? InputData { get; set; }
         public Dictionary<string, string>? MappingData { get; set; }
     }
+    public class MappedOutputData
+{
+    public int Id { get; set; }
+    public string Key { get; set; }
+    public string MappedKey { get; set; }
+    public string Value { get; set; }
+}
 }
